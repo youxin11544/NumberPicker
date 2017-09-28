@@ -1,10 +1,5 @@
 # MaterialNumberPicker
 
-[![Release](https://jitpack.io/v/StephenVinouze/MaterialNumberPicker.svg)](https://jitpack.io/#StephenVinouze/MaterialNumberPicker)
-[![Build Status](https://travis-ci.org/StephenVinouze/MaterialNumberPicker.svg)](https://travis-ci.org/StephenVinouze/MaterialNumberPicker)
-[![API](https://img.shields.io/badge/API-11%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=11)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-MaterialNumberPicker-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/6250)
-[![GitHub license](http://img.shields.io/badge/license-APACHE2-blue.svg)](https://github.com/StephenVinouze/AdvancedRecyclerView/blob/master/LICENSE)
 
 This library takes over the [repository](https://github.com/KasualBusiness/MaterialNumberPicker) that I originally created but seems no longer maintained. It was ported in Kotlin to provide clearer and more optimized code, and includes various features that are still pending in the previous library. It also provide optionals and nullables with a custom constructor so that you can customize your picker the way you want without using a boredom builder pattern.
 
@@ -12,26 +7,7 @@ Native NumberPicker | MaterialNumberPicker (default) | MaterialNumberPicker (cus
 ---- | ---- | ----
 ![Default picker](art/default_picker.png) | ![Simple picker](art/simple_picker.png) | ![Custom picker](art/custom_picker.png)
 
-## Gradle Dependency
 
-Add this in your root `build.gradle` file:
-
-```gradle
-allprojects {
-	repositories {
-		// ... other repositories
-		maven { url "https://jitpack.io" }
-	}
-}
-```
-
-Then add the dependencies that you need in your project.
-
-```gradle
-dependencies {
-  compile "com.github.StephenVinouze:MaterialNumberPicker:{latest_version}"
-}
-```
 
 ## Usage
 
