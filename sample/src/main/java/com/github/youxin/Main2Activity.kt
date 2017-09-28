@@ -1,4 +1,4 @@
-package com.github.stephenvinouze.materialnumberpickersample
+package com.github.youxin
 
 import android.graphics.Typeface
 import android.os.Bundle
@@ -8,14 +8,12 @@ import android.support.v7.app.AppCompatActivity
 import android.widget.Button
 import android.widget.NumberPicker
 import android.widget.Toast
-import com.github.youxin.MaterialNumberPicker
-import com.github.youxin.R
 
 
 /**
  * Created by stephenvinouze on 25/09/2017.
  */
-class MainActivity : AppCompatActivity() {
+class Main2Activity : AppCompatActivity() {
     private val defaultButton: Button by lazy { findViewById(R.id.default_number_picker_button) as Button }
     private val simpleButton: Button by lazy { findViewById(R.id.simple_number_picker_button)  as Button}
     private val customButton: Button by lazy { findViewById(R.id.custom_number_picker_button)  as Button}

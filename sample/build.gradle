@@ -3,7 +3,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion ANDROID_BUILD_TOOLS_VERSION
+    buildToolsVersion '25.0.3'
 
     defaultConfig {
         applicationId "com.github.stephenvinouze.materialnumberpicker_sample"
@@ -25,6 +25,6 @@ def appcompat_version = "25.3.1"
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile project(':core')
-    testCompile 'junit:junit:4.12'
     compile "com.android.support:appcompat-v7:$appcompat_version"
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
 }
