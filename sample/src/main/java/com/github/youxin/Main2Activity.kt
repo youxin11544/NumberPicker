@@ -27,10 +27,12 @@ class Main2Activity : AppCompatActivity() {
             numberPicker.maxValue = 10
             presentPickerInAlert(numberPicker, getString(R.string.alert_default_title))
         }
+
         simpleButton.setOnClickListener {
             val numberPicker = MaterialNumberPicker(this)
             presentPickerInAlert(numberPicker, getString(R.string.alert_simple_title))
         }
+
         customButton.setOnClickListener {
             val numberPicker = MaterialNumberPicker(
                     context = this,
