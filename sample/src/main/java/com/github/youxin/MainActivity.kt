@@ -8,7 +8,8 @@ import android.support.v7.app.AppCompatActivity
 import android.widget.Button
 import android.widget.NumberPicker
 import android.widget.Toast
-import com.github.stephenvinouze.materialnumberpickercore.MaterialNumberPicker
+import com.github.youxin.MaterialNumberPicker
+import com.github.youxin.R
 
 
 /**

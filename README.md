@@ -14,7 +14,7 @@ Native NumberPicker | MaterialNumberPicker (default) | MaterialNumberPicker (cus
 Both XML and programmatic instanciations are supported :
 
 ```xml
-<com.github.stephenvinouze.materialnumberpickercore.MaterialNumberPicker
+<com.core.youxin.MaterialNumberPicker
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:mnpDefaultValue="10"
