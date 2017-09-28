@@ -43,7 +43,7 @@ class Main2Activity : AppCompatActivity() {
                     maxValue = 50,
                     fontName = "Hand.ttf",
                     formatter = NumberPicker.Formatter {
-                        return@Formatter "Value $it"
+                        return@Formatter "youxin $it"
                     }
             )
             presentPickerInAlert(numberPicker, getString(R.string.alert_custom_title))
