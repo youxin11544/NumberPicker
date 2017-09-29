@@ -5,7 +5,7 @@ This library takes over the [repository](https://github.com/KasualBusiness/Mater
 
 Native NumberPicker | MaterialNumberPicker (default) | MaterialNumberPicker (custom)
 ---- | ---- | ----
-![Default picker](art/default_picker.png) | ![Simple picker](art/simple_picker.png) | ![Custom picker](art/custom_picker.png)
+![Default picker](art/1.png) | ![Simple picker](art/2.png) | ![Custom picker](art/3.png)
 
 
 
