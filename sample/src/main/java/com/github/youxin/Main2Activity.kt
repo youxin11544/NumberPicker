@@ -20,19 +20,16 @@ class Main2Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         defaultButton.setOnClickListener {
             val numberPicker = NumberPicker(this)
             numberPicker.minValue = 1
             numberPicker.maxValue = 10
             presentPickerInAlert(numberPicker, getString(R.string.alert_default_title))
         }
-
         simpleButton.setOnClickListener {
             val numberPicker = MaterialNumberPicker(this)
             presentPickerInAlert(numberPicker, getString(R.string.alert_simple_title))
         }
-
         customButton.setOnClickListener {
             val numberPicker = MaterialNumberPicker(
                     context = this,
