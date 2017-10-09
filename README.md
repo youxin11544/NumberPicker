@@ -1,6 +1,5 @@
 # MaterialNumberPicker
 
-
 This library takes over the [repository](https://github.com/KasualBusiness/MaterialNumberPicker) that I originally created but seems no longer maintained. It was ported in Kotlin to provide clearer and more optimized code, and includes various features that are still pending in the previous library. It also provide optionals and nullables with a custom constructor so that you can customize your picker the way you want without using a boredom builder pattern.
 
 Native NumberPicker | MaterialNumberPicker (default) | MaterialNumberPicker (custom)
