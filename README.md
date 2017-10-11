@@ -61,9 +61,6 @@ AlertDialog.Builder(this)
         .show()
 ```
 
-The only attribute that cannot be defined through XML is the formatter that is natively included in the `NumberPicker`. It can be directly assigned from the custom constructor when instanciating programmaticaly. Note that all attributes have their own getter/setters and can be upcated anytime durnig your view's lifecycle.
- 
-We also provide a way to define either your text style within the picker or a custom font. Be aware though that once you define a custom font, the text style will be overriden by the custom font and won't be interpreted. 
 
 ## Pull requests
 
